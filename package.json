@@ -1,6 +1,6 @@
 {
 	"name": "@attistech/semver-compare",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Parse, validate and compare highly opinionated and simplified semantic versions.",
 	"main": "lib/index.js",
 	"repository": {
