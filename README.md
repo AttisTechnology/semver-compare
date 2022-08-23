@@ -2,16 +2,14 @@
 
 Validate and compare two highly opinionated semantic version strings (aka not technically [Semantic Versioning](https://semver.org/)).  
 
-For those of you looking for an actual semantic versioning project, I recommend a quick google search to find some other fine projects that will suit your needs. This project is primary to suit the needs of attis tech. 
+For those of you looking for an actual semantic versioning project, I recommend a quick google search to find some other fine projects that will suit your needs. This project is primarily suited to meet the needs of attis tech. 
 
 
 # Overview
 
-This is a highly simplified format for versioning that does not allow for anything other that a simple `1.2.3` format with optional `-beta.[number]` or `-alpha.[number]` suffix. 
+This is a highly simplified format for versioning that does not allow for anything other than a simple `1.2.3` format with optional `-beta.[number]` or `-alpha.[number]` suffixes. 
 
 See the regex in use: [https://regex101.com/r/EQl8V2/1](https://regex101.com/r/EQl8V2/1)
-
-
 
 
 ## Examples: 
