@@ -1,6 +1,6 @@
 {
 	"name": "@attistech/semver-compare",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Compare semantic versions. Returns 0 if the same, -1 if less, 1 if greater. ",
 	"main": "lib/index.js",
 	"repository": {
