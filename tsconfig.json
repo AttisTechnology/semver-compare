@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node", 
+    "allowJs": true, 
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "./lib",
+    "rootDir": "src",
+    "strict": true
+  },
+  "ts-node": { 
+    "compilerOptions": {
+      "module": "commonjs"  
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
