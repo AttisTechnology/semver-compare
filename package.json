@@ -1,0 +1,20 @@
+{
+	"name": "@attistech/semver-compare",
+	"version": "0.1.0",
+	"description": "Compare semantic versions. Returns 0 if the same, -1 if less, 1 if greater. ",
+	"main": "index.js",
+	"repository": "https://github.com/AttisTechnology/semver-compare",
+	"author": "Rob MacInnis <rob@attistechnology.com> (https://attistechnology.com)",
+	"license": "MIT",
+	"private": false,
+	"devDependencies": {
+		"@types/chai": "^4.3.3",
+		"@types/mocha": "^9.1.1",
+		"chai": "^4.3.6",
+		"mocha": "^10.0.0",
+		"ts-node": "^10.9.1"
+	},
+	"scripts": {
+		"test": "mocha"
+	}
+}
