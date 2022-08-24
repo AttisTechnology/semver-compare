@@ -64,14 +64,26 @@ if(compareSemver('1.2.3', '1.2.4') === -1) {
 ```
 
 
+# Development 
 
+```sh
+# Be sure to build before publishing 
+npm run build 
+
+# Bump the version 
+npm version 
+
+# Publish the package 
+npm publish
+```
 
 # Testing
 
 Test like the best. Test with [Jest](https://jestjs.io/)
 
-```
-$ jest
+```sh
+cd project/root
+jest
 ```
 
 # License
