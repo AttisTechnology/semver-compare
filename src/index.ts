@@ -29,9 +29,9 @@ export const parseSemver = (version: string): [number, number, number, number, n
   let betaAlpha = VersionType.Main; 
 
   // Alpha/Beta
-  if (version.includes('-')) {
+  if (versionString.includes('-')) {
 
-    const parts = version.split('-');
+    const parts = versionString.split('-');
 
     if (parts[1].substring(0, 6) === 'alpha.') {
       const betaParts = parts[1].split('.');

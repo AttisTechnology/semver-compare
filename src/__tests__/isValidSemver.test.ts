@@ -23,6 +23,7 @@ const cases = [
     ["v1.2.3-beta.", false], 
     ["v1.2.3-alpha.1", true], 
     ["v1.2.3-beta.1", true], 
+    ["v2.11.0-beta.2", true]
 ]
 
 test.each(cases)("isValidSemver(%s) should return %s", (version, isValid) => { 
